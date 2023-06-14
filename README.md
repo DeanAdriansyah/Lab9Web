@@ -193,7 +193,7 @@ php spark db:seed UserSeeder
 
 - Lalu, uji coba login nya dengan cara mengakses url http://localhost:8080/user/login seperti berikut:
 
-![Login Form](README_img/login_form.png)
+![Login Form](README_img/login.png)
 
 # Menambahkan Auth Filter
 - Selanjutnya membuat filter untuk halaman Admin. Buat file baru dengan nama Auth.php pada
@@ -238,7 +238,7 @@ class Auth implements FilterInterface
 
 - Dan uji coba akses menu admin, dengan cara buka url dengan alamat http://localhost:8080/admin/artikel ketika alamat tersebut diakses maka akan dimuculkan halaman login.
 
-![Login Admin](README_img/login_form.png)
+![Login Admin](README_img/login.png)
 
 # Fungsi Logout
 <p>Tambahkan method logout() pada Controller User seperti berikut:</p>
@@ -255,7 +255,7 @@ class Auth implements FilterInterface
 <p>Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan improvisasi.</p>
 
 ## Laporan Praktikum
-1. Melanjutkan praktikum sebelumnya pada repository dengan nama Lab8Web.
+1. Melanjutkan praktikum sebelumnya pada repository dengan nama Lab9Web.
 2. Kerjakan semua latihan yang diberikan sesuai urutannya.
 3. Screenshot setiap perubahannya.
 4. Update file README.md dan tuliskan penjelasan dari setiap langkah praktikum beserta
@@ -263,6 +263,12 @@ screenshotnya.
 5. Commit hasilnya pada repository masing-masing.
 6. Kirim URL repository pada e-learning ecampus.
 
-## Terima Kasih!
+## Hasil
+
+![Login Admin](README_img/login.png)
+
+---
+# <P align="center"> THANK YOU SO MUCH FOR YOUR ATTENTION!! SEE YOU SOON!!
+
 
 
